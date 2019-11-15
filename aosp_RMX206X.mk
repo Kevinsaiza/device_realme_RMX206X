@@ -6,6 +6,10 @@
 
 $(call inherit-product, device/realme/RMX206X/device.mk)
 
+# All components inherited here go to system_ext image
+$(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
+
 # AOSP Gapps
 $(call inherit-product, vendor/aosp/config/common.mk)
 

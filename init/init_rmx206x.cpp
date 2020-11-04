@@ -122,13 +122,13 @@ void vendor_load_properties()
 
     for (const auto &source : ro_props_default_source_order)
     {
-        set_ro_product_prop(source, "device", "RMX2061L1");
-        set_ro_product_prop(source, "model", "RMX2061");
-        set_ro_product_prop(source, "name", "RMX2061");
+        set_ro_product_prop(source, "device", "redfin");
+        set_ro_product_prop(source, "model", "redfin");
+        set_ro_product_prop(source, "name", "Pixel 5");
     }
     // fingerprint
-    property_override("ro.build.description", "coral-user 11 RP1A.201005.004 6782484 release-keys");
-    property_override_prop("ro.build.fingerprint", "google/coral/coral:11/RP1A.201005.004/6782484:user/release-keys");
+    property_override("ro.build.description", "redfin-user 11 RD1A.201105.003.A1 6886512 release-keys");
+    property_override_prop("ro.build.fingerprint", "google/redfin/redfin:11/RD1A.201105.003.A1/6886512:user/release-keys");
 
     // Workaround SafetyNet
     workaround_snet_properties();

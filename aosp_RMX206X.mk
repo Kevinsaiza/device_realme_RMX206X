@@ -16,8 +16,8 @@ $(call inherit-product, vendor/aosp/config/common.mk)
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_RMX206X
 PRODUCT_DEVICE := RMX206X
-PRODUCT_BRAND := realme
-PRODUCT_MODEL := realme 6 Pro
-PRODUCT_MANUFACTURER := realme
+PRODUCT_BRAND := google
+PRODUCT_MODEL := Pixel 5
+PRODUCT_MANUFACTURER := Google
 
-PRODUCT_GMS_CLIENTID_BASE := android-oppo
+PRODUCT_GMS_CLIENTID_BASE := android-google
